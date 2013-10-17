@@ -1,5 +1,5 @@
-Example.Simple
-==============
+Example.ClickOverlay
+====================
 
 This example demonstrates an invisible overlay that covers the viewer and reacts to being clicked on. 
 
