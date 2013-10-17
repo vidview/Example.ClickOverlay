@@ -13,8 +13,8 @@ namespace Example.ClickOverlay
 		Imint.Viewer.Overlay,
 		IClickOverlay
 	{
-		public override string Type { get { return "OverlayThingy:IClickOverlay"; } }
-		public override string Remote { get { return "OverlayThingy:Remote.ClickOverlay"; } }
+		public override string Type { get { return "Example.ClickOverlay:IClickOverlay"; } }
+		public override string Remote { get { return "Example.ClickOverlay:Remote.ClickOverlay"; } }
 		Geometry2D.Single.Point position;
 		[Notify("PositionChanged")]
 		[Platform.Settings.Property("position")]

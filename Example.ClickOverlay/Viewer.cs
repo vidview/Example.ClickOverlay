@@ -37,7 +37,7 @@ namespace Example.ClickOverlay
 				// viewer
 				// 
 				this.vidview.Asynchronous = Settings.Asynchronous.SetNotify;
-				this.vidview.Arguments = "-d -r telnet://:23";
+				this.vidview.Arguments = "-r telnet://:23";
 				this.vidview.Dock = System.Windows.Forms.DockStyle.Fill;
 				this.vidview.Location = new System.Drawing.Point(0, 0);
 				this.vidview.Name = "viewer";
