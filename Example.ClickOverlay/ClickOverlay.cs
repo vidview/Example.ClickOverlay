@@ -25,13 +25,13 @@ namespace Example.ClickOverlay
 		}
 		public event Action<Geometry2D.Single.Point> PositionChanged;
 
-		protected override bool PointerLeftClick(Geometry2D.Single.Point position, bool pressed)
+		protected override bool PointerLeftClick(Geometry2D.Single.Point position)
 		{
 			this.Position = position;
 			return true;
 		}
 
-		protected override Imint.Viewer.ICache[] UpdateCaches(Imint.Viewer.ICache[] caches, Func<Draw.Image, Imint.Viewer.ICache> createCache, Kean.Collection.IReadOnlyDictionary<string, object> meta)
+		protected override Imint.Viewer.Cache[] UpdateCaches(Imint.Viewer.Cache[] caches, Kean.Collection.IReadOnlyDictionary<string, object> meta)
 		{
 			return caches;
 		}
